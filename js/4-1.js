@@ -1,9 +1,8 @@
-// Write code under this line
 // 1. По условиям задачи возвращаем через первую стрелочную функцию сумму параметров;
 // 2. Также для второй функции делаем вычитание для параметров;
 // 3. При создании нового массива numbers для new Array используем длинну массива https://developer.mozilla.org/uk/docs/Web/JavaScript/Reference/Global_Objects/Array/Array ;
 
-
+// Write code under this line
 const addIndex = (element, index) => element + index;
 
 // Write code under this line
