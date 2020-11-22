@@ -1,4 +1,4 @@
-// 1. Используем для invokeAdd метод функции bind, котором в качестве аргумента идёт inventory;
+// 1. Используем для invokeAdd метод функции bind, в котором в качестве аргумента идёт inventory;
 // 2. Используем для invokeRemove метод функции bind, котором в качестве аргумента идёт inventory;
 
 const inventory = {
@@ -35,7 +35,7 @@ console.log(arrayAdd);
 
 const invokeRemove = invokeInventoryAction(
   'Gas mask',
-  inventory.remove.bind(inventory), // Write code in this line
+  inventory.remove.bind(inventory) // Write code in this line
 );
 
 const arrayRemove = [...inventory.items];
